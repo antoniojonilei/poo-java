@@ -7,3 +7,9 @@
   - public
   - private
   - protected
+- Métodos Acessores
+  - Getters
+- Métodos Modificadores
+  - Setters
+- Método Construtor
+  - Construct
