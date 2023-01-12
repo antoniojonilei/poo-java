@@ -3,3 +3,7 @@
 - Criando Classes
   - Atributos
   - Métodos
+- Visibilidade
+  - public
+  - private
+  - protected
