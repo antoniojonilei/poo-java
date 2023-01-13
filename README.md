@@ -13,3 +13,7 @@
   - Setters
 - Método Construtor
   - Construct
+- Encapsulamento
+  - Tornar Mudanças Invisíveis
+  - Facilitar Reutilização de Código
+  - Reduzir Efeitos Colaterais
