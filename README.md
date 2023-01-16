@@ -17,4 +17,4 @@
   - Tornar Mudanças Invisíveis
   - Facilitar Reutilização de Código
   - Reduzir Efeitos Colaterais
-  
+- Herança
