@@ -17,15 +17,28 @@ public class UltraEmojiCombat {
         // lutadores[2].apresentar();
         // lutadores[3].apresentar();
         // lutadores[4].apresentar();
-        lutadores[1].apresentar();
+        // lutadores[5].apresentar();
 
         // lutadores[0].status();
 
-        lutadores[1].ganharLuta();
-        lutadores[1].perderLuta();
-        lutadores[1].empatarLuta();
-        lutadores[1].status();
+        // lutadores[1].ganharLuta();
+        // lutadores[1].perderLuta();
+        // lutadores[1].empatarLuta();
+        // lutadores[1].status();
 
+        // Luta UEC01 = new Luta();
+        // UEC01.marcarLuta(lutadores[0], lutadores[1]);
+        // UEC01.luta();         
+        // lutadores[0].status();
+        // lutadores[1].status();
         
+        Luta UEC02 = new Luta();
+        UEC02.marcarLuta(lutadores[5], lutadores[4]);
+        UEC02.luta();
+
+        // lutadores[0].status();
+        // lutadores[3].status();
+
     }
+
 }
