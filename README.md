@@ -17,4 +17,8 @@
   - Tornar Mudanças Invisíveis
   - Facilitar Reutilização de Código
   - Reduzir Efeitos Colaterais
+- Agregação
+  - Quando um Objeto TEM outro Objeto
+  - Classe que agregue outras classes
+
 - Herança
