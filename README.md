@@ -20,5 +20,20 @@
 - Agregação
   - Quando um Objeto TEM outro Objeto
   - Classe que agregue outras classes
-
 - Herança
+  - Uma classe herda atributos e métodos de uma classe Mãe
+    - SuperClasse
+- Herança de Implementação
+  - Herança pobre
+- Herança de Diferença
+- Classe Abstrata
+  - Não pode ser instanciada.
+  - Só pode servir como progenitora
+- Método Abstrato
+  - Declarado, mas não implementado na progenitora
+- Classe Final
+  - Não pode ser herdada por outra classe
+  - Obrigatoriamente folha
+- Método Final
+  - Não pode ser sobrescrito pelas sub-classes.
+  - Orbigatoriamente herdado.
