@@ -36,4 +36,4 @@
   - Obrigatoriamente folha
 - Método Final
   - Não pode ser sobrescrito pelas sub-classes.
-  - Orbigatoriamente herdado.
+  - Obrigatoriamente herdado.
