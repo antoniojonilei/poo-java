@@ -37,3 +37,9 @@
 - Método Final
   - Não pode ser sobrescrito pelas sub-classes.
   - Obrigatoriamente herdado.
+- Polimorfismo
+  - Sobreposição
+    - Acontece quando substituímos um método de uma superclasse na sua subclasse
+    - Usando a mesma assinatura
+  - 
+
