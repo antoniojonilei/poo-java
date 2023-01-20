@@ -74,8 +74,13 @@ public class Video implements AcoesVideo{
     }
 
     // detalhes String
-    @Override
-    public String toString() {        
-        return "========= Video ========= \n" + "video: " + this.titulo + ",\nAvaliacao: " + this.avaliacao + ",\nViews: " + this.views + ",\nCurtidas: " + this.curtidas + ",\nReproduzindo: " + this.reproduzindo;     
+    public void status() {
+        System.out.println("========== Video ==========");
+        System.out.println("Titulo: " + this.titulo);
+        System.out.println("Avaliaçao: " + this.avaliacao);
+        System.out.println("Views: " + this.views);
+        System.out.println("Curtidas: " + this.curtidas);
+        System.out.println("Reproduzindo: " + this.reproduzindo);
     }
+
 }

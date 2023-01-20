@@ -30,11 +30,4 @@ public class Usuario extends Pessoa{
         return totalAssistido;
     }
 
-    public void detalhes() {
-        System.out.println("Nome: " + this.nome);
-        System.out.println("Idade: " + this.idade);
-        System.out.println("Sexo: " + this.sexo);
-        System.out.println("Login: " + this.login);
-        System.out.println("Asistido: " + this.totalAssistido);
-    }
 }

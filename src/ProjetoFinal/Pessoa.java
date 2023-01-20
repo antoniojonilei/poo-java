@@ -49,5 +49,11 @@ public abstract class Pessoa {
     public int getExperiencia() {
         return experiencia;
     }
+
+    // detalhes
+    public void detalhes() {
+        System.out.println("======== Pessoa ========");
+        System.out.println("Pessoa: " + this.nome);
+    }
     
 }
