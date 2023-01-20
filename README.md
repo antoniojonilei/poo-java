@@ -41,6 +41,7 @@
   - Sobreposição
     - Acontece quando substituímos um método de uma superclasse na sua subclasse
     - Usando a mesma assinatura
+      - Mesma quantidade e mesmos tipos de Parâmetros
     - Classes diferentes
   - Sobrecarga
     - Assinaturas diferentes
