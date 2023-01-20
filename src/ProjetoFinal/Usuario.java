@@ -30,8 +30,11 @@ public class Usuario extends Pessoa{
         return totalAssistido;
     }
 
-    // @Override
-    // public String toString() {
-    //     return "======= Pessoa =======" + "\nPessoa: " + this.nome + ",\nIdade: " + this.idade + ",\nExperiencia: " + this.experiencia;
-    // }
+    public void detalhes() {
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Idade: " + this.idade);
+        System.out.println("Sexo: " + this.sexo);
+        System.out.println("Login: " + this.login);
+        System.out.println("Asistido: " + this.totalAssistido);
+    }
 }
