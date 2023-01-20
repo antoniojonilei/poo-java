@@ -27,7 +27,7 @@ public class Usuario extends Pessoa{
     }
 
     public int getTotalAssistido() {
-        return totalAssistido;
+        return this.totalAssistido;
     }
 
     // Sobreposição - Polimorfismo 
