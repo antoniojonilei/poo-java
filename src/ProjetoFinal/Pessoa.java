@@ -52,8 +52,11 @@ public abstract class Pessoa {
 
     // detalhes
     public void detalhes() {
-        System.out.println("======== Pessoa ========");
+        System.out.println("========== Pessoa ==========");
         System.out.println("Pessoa: " + this.nome);
-    }
+        System.out.println("Idade: " + this.idade);
+        System.out.println("Sexo: " + this.sexo);
+        System.out.println("Exp: " + this.experiencia);
+    }   
     
 }

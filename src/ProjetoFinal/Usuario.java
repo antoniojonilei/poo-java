@@ -30,4 +30,12 @@ public class Usuario extends Pessoa{
         return totalAssistido;
     }
 
+    // Sobreposição - Polimorfismo 
+    @Override
+    public void detalhes() {
+        super.detalhes(); // chama da superclasse
+        System.out.println("Login: " + this.login);
+        System.out.println("Assitiu: " + this.totalAssistido);
+    }
+
 }

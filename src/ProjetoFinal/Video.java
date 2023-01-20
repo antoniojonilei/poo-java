@@ -60,17 +60,17 @@ public class Video implements AcoesVideo{
     // Implementação dos métodos da interface 
     @Override
     public void play() {
-
+        this.reproduzindo = true;
     }
 
     @Override
     public void pause() {
-
+        this.reproduzindo = false;
     }
 
     @Override 
     public void like() {
-
+        this.curtidas++;
     }
 
     // detalhes String

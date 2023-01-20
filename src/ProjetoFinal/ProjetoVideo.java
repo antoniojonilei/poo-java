@@ -7,16 +7,20 @@ public class ProjetoVideo {
         videos[1] = new Video("Aula 1 de POO");
         videos[2] = new Video("Como ser Front End");
 
-        Usuario usuarios[] = new Usuario[2];
-        usuarios[0] = new Usuario("Jonilei", 31, "M", "jonileisilva"); 
-        usuarios[1] = new Usuario("Marislauda", 25, "F", "marisMaris");
-        usuarios[2] = new Usuario("Cliofa", 18, "F", "itsmeclio");
-
-        // videos[0].status();
+        videos[0].status();
         // videos[1].status();
         // videos[2].status();
 
+        Usuario usuarios[] = new Usuario[3];
+        usuarios[0] = new Usuario("Jonilei", 31, "M", "jonileisilva");
+        usuarios[1] = new Usuario("Kitana", 25, "F", "kitanawins");
+        usuarios[2] = new Usuario("Sheeva", 60, "F", "Sheevawins");
+
         usuarios[0].detalhes();
+        usuarios[1].detalhes();
+        usuarios[2].detalhes();
+
+        // System.out.println(videos[0].getTitulo());
       
 
     }
